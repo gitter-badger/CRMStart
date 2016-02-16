@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMStart.Core", "CRMStart.Core\CRMStart.Core.csproj", "{D35185BF-0327-4B00-90BD-AA5C54A1B109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMStart.Data", "CRMStart.Data\CRMStart.Data.csproj", "{76885F04-FD00-4F27-ADDD-214CFB077ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMStart.Web.Framework", "CRMStart.Web.Framework\CRMStart.Web.Framework.csproj", "{747F1DB3-EF6E-47E0-A44B-6B673DE9A18A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMStart.Web", "CRMStart.Web\CRMStart.Web.csproj", "{DE556FDB-C334-489C-88E1-0170255E605D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35185BF-0327-4B00-90BD-AA5C54A1B109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35185BF-0327-4B00-90BD-AA5C54A1B109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35185BF-0327-4B00-90BD-AA5C54A1B109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35185BF-0327-4B00-90BD-AA5C54A1B109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76885F04-FD00-4F27-ADDD-214CFB077ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76885F04-FD00-4F27-ADDD-214CFB077ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76885F04-FD00-4F27-ADDD-214CFB077ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76885F04-FD00-4F27-ADDD-214CFB077ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747F1DB3-EF6E-47E0-A44B-6B673DE9A18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747F1DB3-EF6E-47E0-A44B-6B673DE9A18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747F1DB3-EF6E-47E0-A44B-6B673DE9A18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747F1DB3-EF6E-47E0-A44B-6B673DE9A18A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE556FDB-C334-489C-88E1-0170255E605D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE556FDB-C334-489C-88E1-0170255E605D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE556FDB-C334-489C-88E1-0170255E605D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE556FDB-C334-489C-88E1-0170255E605D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
