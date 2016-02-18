@@ -13,13 +13,7 @@ namespace CRMStart.Web.Framework.Controllers
     {
         public CrmStartObjectContext Db = new CrmStartObjectContext();
 
-        public void AddErrors(IdentityResult result)
-        {
-            foreach (var error in result.Errors)
-            {
-                ModelState.AddModelError("", error);
-            }
-        }
+       
 
     }
 }

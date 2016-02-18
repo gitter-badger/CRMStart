@@ -8,7 +8,7 @@ namespace CRMStart.Web.Framework.Infrastructure.Security
 {
     public class CRMStartRoleManager : RoleManager<IdentityRole>
     {
-        public CRMStartRoleManager(IRoleStore<IdentityRole, string> roleStore)
+        private CRMStartRoleManager(IRoleStore<IdentityRole, string> roleStore)
             : base(roleStore)
         {
         }

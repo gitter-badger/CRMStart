@@ -5,5 +5,6 @@ namespace CRMStart.Data.Mapping.Gardners.DataServices
 {
     internal class DataFTPMap : EntityTypeConfiguration<DataFtp>
     {
+        
     }
 }

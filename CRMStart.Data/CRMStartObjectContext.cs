@@ -14,7 +14,7 @@ namespace CRMStart.Data
         public CrmStartObjectContext()
             : base(
                 @"data source=.\SQLEXPRESS;initial catalog=CRMStart.Domain;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework"
-                )
+                ,true)
         {
             Configuration.LazyLoadingEnabled = false;
         }
