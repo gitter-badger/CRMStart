@@ -56,23 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRMStartObjectContext.cs" />
-    <Compile Include="Mapping\Contacts\ContactMap.cs" />
-    <Compile Include="Mapping\Contacts\RoleMap.cs" />
-    <Compile Include="Mapping\Country\CountryMap.cs" />
-    <Compile Include="Mapping\Customer\StatusMap.cs" />
-    <Compile Include="Mapping\Customer\CustomerMap.cs" />
-    <Compile Include="Mapping\Gardners\DataServices\EDIMap.cs" />
-    <Compile Include="Mapping\Gardners\DataServices\DataFTPMap.cs" />
-    <Compile Include="Mapping\Gardners\DataServices\OrderFTPMap.cs" />
-    <Compile Include="Mapping\KnowledgeBase\SectionMap.cs" />
-    <Compile Include="Mapping\KnowledgeBase\CommentMap.cs" />
-    <Compile Include="Mapping\KnowledgeBase\CategoryMap.cs" />
-    <Compile Include="Mapping\KnowledgeBase\ArticleMap.cs" />
-    <Compile Include="Mapping\Support\TicketMap.cs" />
-    <Compile Include="Mapping\Support\StatusMap.cs" />
-    <Compile Include="Mapping\Support\CategoryMap.cs" />
-    <Compile Include="Mapping\Support\ActionTypeMap.cs" />
-    <Compile Include="Mapping\Support\ActionMap.cs" />
     <Compile Include="Migrations\201602152144151_init.cs" />
     <Compile Include="Migrations\201602152144151_init.Designer.cs">
       <DependentUpon>201602152144151_init.cs</DependentUpon>
@@ -85,13 +68,16 @@
     <Compile Include="Migrations\201602152207048_Role.Designer.cs">
       <DependentUpon>201602152207048_Role.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602181337470_RemoveMapping.cs" />
+    <Compile Include="Migrations\201602181337470_RemoveMapping.Designer.cs">
+      <DependentUpon>201602181337470_RemoveMapping.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Caching\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Mapping\Notes\" />
     <Folder Include="Setup\" />
     <Folder Include="Sql\" />
   </ItemGroup>
@@ -114,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602152207048_Role.resx">
       <DependentUpon>201602152207048_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602181337470_RemoveMapping.resx">
+      <DependentUpon>201602181337470_RemoveMapping.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

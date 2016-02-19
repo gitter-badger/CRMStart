@@ -57,7 +57,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Common\FTP.cs" />
     <Compile Include="Domain\Contacts\Contact.cs" />
     <Compile Include="Domain\Contacts\Roles.cs" />
     <Compile Include="Domain\Country\Country.cs" />
@@ -65,19 +64,6 @@
     <Compile Include="Domain\Common\StatusBase.cs" />
     <Compile Include="Domain\Customer\Status.cs" />
     <Compile Include="Domain\Customer\Type.cs" />
-    <Compile Include="Domain\Gardners\DataServices\DataFtp.cs" />
-    <Compile Include="Domain\Gardners\DataServices\Ebook.cs" />
-    <Compile Include="Domain\Gardners\DataServices\EDI.cs" />
-    <Compile Include="Domain\Gardners\DataServices\ImageLibrary.cs" />
-    <Compile Include="Domain\Gardners\DataServices\OrderFtp.cs" />
-    <Compile Include="Domain\Gardners\GardLink\Demo.cs" />
-    <Compile Include="Domain\Gardners\GardLink\EDI.cs" />
-    <Compile Include="Domain\Gardners\GardLink\GardFTP.cs" />
-    <Compile Include="Domain\Gardners\GardLink\GardLink.cs" />
-    <Compile Include="Domain\Gardners\GardLink\Service.cs" />
-    <Compile Include="Domain\Gardners\GardLink\ServiceType.cs" />
-    <Compile Include="Domain\Gardners\GardLink\Support.cs" />
-    <Compile Include="Domain\Gardners\GardLink\Version.cs" />
     <Compile Include="Domain\KnowledgeBase\Article.cs" />
     <Compile Include="Domain\KnowledgeBase\Category.cs" />
     <Compile Include="Domain\KnowledgeBase\Comment.cs" />

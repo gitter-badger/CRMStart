@@ -1,18 +1,17 @@
-﻿
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using System.Collections.Generic;
 using CRMStart.Core.Domain.Security;
 using CRMStart.Web.Areas.User.Models;
 using CRMStart.Web.Framework.Infrastructure.Security;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
 
-namespace IdentitySample.Controllers
+namespace CRMStart.Web.Areas.User.Controllers
 {
     [Authorize(Roles = "Admin")]
     public class RolesAdminController : Controller

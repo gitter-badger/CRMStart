@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using CRMStart.Core.Domain.Contacts;
-using CRMStart.Core.Domain.Gardners.DataServices;
 using CRMStart.Core.Domain.Support;
 
 namespace CRMStart.Core.Domain.Customer
@@ -39,6 +38,6 @@ namespace CRMStart.Core.Domain.Customer
 
         public virtual Type Type { get; set; }
 
-        public virtual Edi Edis { get; set; }
+   
     }
 }

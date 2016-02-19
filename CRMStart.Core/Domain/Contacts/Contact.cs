@@ -22,7 +22,7 @@ namespace CRMStart.Core.Domain.Contacts
 
 
         public virtual Customer.Customer Customer { get; set; }
-        public ICollection<Role> Roles { get; set; }  
+        public virtual ICollection<Role> Roles { get; set; }  
 
     }
 }
