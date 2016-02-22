@@ -31,6 +31,6 @@ namespace CRMStart.Core.Domain.KnowledgeBase
 
         public virtual ICollection<Comment> Comments { get; set; }
 
-        public virtual UserProfile User { get; set; }
+        public virtual CrmStartUser User { get; set; }
     }
 }

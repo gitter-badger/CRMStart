@@ -13,6 +13,7 @@ namespace CRMStart.Core.Domain.Security
             JoinDate = DateTime.Now;
         }
 
+        
         public string Id { get; set; }
 
         [Required]
@@ -32,8 +33,7 @@ namespace CRMStart.Core.Domain.Security
         [Required]
         public DateTime JoinDate { get; set; }
 
-        public virtual ICollection<TicketAction> Actions { get; set; }
-        public virtual ICollection<Article> Articles { get; set; }
-        public virtual ICollection<Comment> Comments { get; set; }
+
+
     }
 }

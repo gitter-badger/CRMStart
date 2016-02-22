@@ -18,7 +18,7 @@ namespace CRMStart.Core.Domain.KnowledgeBase
         public DateTime DatePosted { get; set; }
 
 
-        public virtual UserProfile User { get; set; }
+        public virtual CrmStartUser User { get; set; }
 
         public virtual Article Article { get; set; }
     }

@@ -72,6 +72,14 @@
     <Compile Include="Migrations\201602181337470_RemoveMapping.Designer.cs">
       <DependentUpon>201602181337470_RemoveMapping.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602191434545_exterminate-gemini.cs" />
+    <Compile Include="Migrations\201602191434545_exterminate-gemini.Designer.cs">
+      <DependentUpon>201602191434545_exterminate-gemini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602220901075_Team.cs" />
+    <Compile Include="Migrations\201602220901075_Team.Designer.cs">
+      <DependentUpon>201602220901075_Team.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -103,6 +111,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602181337470_RemoveMapping.resx">
       <DependentUpon>201602181337470_RemoveMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602191434545_exterminate-gemini.resx">
+      <DependentUpon>201602191434545_exterminate-gemini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602220901075_Team.resx">
+      <DependentUpon>201602220901075_Team.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

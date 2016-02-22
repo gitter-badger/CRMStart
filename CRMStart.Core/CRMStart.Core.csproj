@@ -72,6 +72,7 @@
     <Compile Include="Domain\Notes\Note.cs" />
     <Compile Include="Domain\Security\CRMStartUser.cs" />
     <Compile Include="Domain\Security\PreviousPassword.cs" />
+    <Compile Include="Domain\Security\Team.cs" />
     <Compile Include="Domain\Security\UserProfile.cs" />
     <Compile Include="Domain\Support\TicketAction.cs" />
     <Compile Include="Domain\Support\TicketActionType.cs" />
@@ -79,6 +80,10 @@
     <Compile Include="Domain\Support\TicketStatus.cs" />
     <Compile Include="Domain\Support\Ticket.cs" />
     <Compile Include="Domain\Security\CRMStartUserStore.cs" />
+    <Compile Include="Domain\Tasks\Action.cs" />
+    <Compile Include="Domain\Tasks\Priority.cs" />
+    <Compile Include="Domain\Tasks\Project.cs" />
+    <Compile Include="Domain\Tasks\Status.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Security\EmailService.cs" />

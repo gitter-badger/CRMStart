@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CRMStart.Core.Domain.Contacts;
 using CRMStart.Core.Domain.Support;
+using CRMStart.Core.Domain.Tasks;
 
 namespace CRMStart.Core.Domain.Customer
 {
@@ -32,7 +33,7 @@ namespace CRMStart.Core.Domain.Customer
 
         public virtual ICollection<Contact> Contacts { get; set; }
 
-        public virtual Status Status { get; set; }
+        public virtual CustomerStatus Status { get; set; }
 
         public virtual Country.Country Country { get; set; }
 

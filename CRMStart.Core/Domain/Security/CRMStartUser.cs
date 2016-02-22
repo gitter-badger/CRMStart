@@ -12,9 +12,13 @@ namespace CRMStart.Core.Domain.Security
     {
         public virtual IList<PreviousPassword> PreviousUserPasswords { get; set; } = new List<PreviousPassword>();
         public virtual UserProfile UsersProfile { get; set; }
+        public virtual ICollection<Team> Teams { get; set; }
 
 
-      
+
+        public virtual ICollection<TicketAction> Actions { get; set; }
+        public virtual ICollection<Article> Articles { get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
 
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<CrmStartUser> manager)

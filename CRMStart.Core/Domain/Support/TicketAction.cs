@@ -26,7 +26,7 @@ namespace CRMStart.Core.Domain.Support
 
         public virtual TicketActionType ActionType { get; set; }
 
-        public virtual UserProfile User { get; set; }
+        public virtual CrmStartUser User { get; set; }
 
     }
 }

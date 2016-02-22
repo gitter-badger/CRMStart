@@ -2,6 +2,7 @@
 using CRMStart.Core.Domain.Customer;
 using CRMStart.Core.Domain.KnowledgeBase;
 using CRMStart.Core.Domain.Security;
+using CRMStart.Core.Domain.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace CRMStart.Data
@@ -42,17 +43,21 @@ namespace CRMStart.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
 
+        //Task Management
+        public DbSet<Action> Actions { get; set; }
+        public DbSet<Priority> Priorities { get; set; }
+        public DbSet<Core.Domain.Tasks.ProjectStatus> ProjectStatuses { get; set; }
+        public DbSet<Project> Projects { get; set; } 
+
+        //  protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //      base.OnModelCreating(modelBuilder);
+        //      // Configure Code First to ignore PluralizingTableName convention 
+        //      // If you keep this convention then the generated tables will have pluralized names. 
+        //      // modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
 
-      //  protected override void OnModelCreating(DbModelBuilder modelBuilder)
-      //{
-      //      base.OnModelCreating(modelBuilder);
-      //      // Configure Code First to ignore PluralizingTableName convention 
-      //      // If you keep this convention then the generated tables will have pluralized names. 
-      //      // modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-
-            
-      //}
+        //}
     }
 }
