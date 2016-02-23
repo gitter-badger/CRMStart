@@ -56,30 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRMStartObjectContext.cs" />
-    <Compile Include="Migrations\201602152144151_init.cs" />
-    <Compile Include="Migrations\201602152144151_init.Designer.cs">
-      <DependentUpon>201602152144151_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201602152204024_in1.cs" />
-    <Compile Include="Migrations\201602152204024_in1.Designer.cs">
-      <DependentUpon>201602152204024_in1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201602152207048_Role.cs" />
-    <Compile Include="Migrations\201602152207048_Role.Designer.cs">
-      <DependentUpon>201602152207048_Role.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201602181337470_RemoveMapping.cs" />
-    <Compile Include="Migrations\201602181337470_RemoveMapping.Designer.cs">
-      <DependentUpon>201602181337470_RemoveMapping.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201602191434545_exterminate-gemini.cs" />
-    <Compile Include="Migrations\201602191434545_exterminate-gemini.Designer.cs">
-      <DependentUpon>201602191434545_exterminate-gemini.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201602220901075_Team.cs" />
-    <Compile Include="Migrations\201602220901075_Team.Designer.cs">
-      <DependentUpon>201602220901075_Team.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -98,26 +74,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201602152144151_init.resx">
-      <DependentUpon>201602152144151_init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201602152204024_in1.resx">
-      <DependentUpon>201602152204024_in1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201602152207048_Role.resx">
-      <DependentUpon>201602152207048_Role.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201602181337470_RemoveMapping.resx">
-      <DependentUpon>201602181337470_RemoveMapping.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201602191434545_exterminate-gemini.resx">
-      <DependentUpon>201602191434545_exterminate-gemini.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201602220901075_Team.resx">
-      <DependentUpon>201602220901075_Team.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
